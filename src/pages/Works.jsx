@@ -22,7 +22,7 @@ const Works = () => {
           </Link>
         </div>
         <div className="group transition px-20">
-          <Link to={`/aer`}>
+          <Link to={`/invoice`}>
             <h1 className="text-4xl text-center"> Invoice </h1>
             <img
               src={InvoiceHeader}

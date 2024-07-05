@@ -6,6 +6,12 @@ import {
   UserResearch,
   EmpathyMap,
   UserPersona,
+  StoryBoard,
+  UserJourney,
+  InfoArchitecture,
+  WireFrame,
+  OnboardingScreen,
+  OwnerProfile,
 } from "../components";
 
 const Aer = () => {
@@ -91,6 +97,12 @@ const Aer = () => {
         <UserResearch />
         <EmpathyMap />
         <UserPersona />
+        <StoryBoard />
+        <UserJourney />
+        <InfoArchitecture />
+        <WireFrame />
+        <OnboardingScreen />
+        <OwnerProfile />
       </section>
     </section>
   );
