@@ -23,10 +23,10 @@ const Aer = () => {
       <section className="py-32 max-w-7xl mx-auto px-10">
         <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-10">
           <div className="flex flex-col text-center lg:text-start space-y-5">
-            <h1 className="text-6xl">
+            <h1 className="lg:text-6xl text-3xl">
               AER: The Self Driving Electric Ride Hailing Service
             </h1>
-            <p className="t">
+            <p className="">
               The product is a mobile app for an EV company that serves both car
               owners and passengers who prefer environmentally friendly means of
               transportation.

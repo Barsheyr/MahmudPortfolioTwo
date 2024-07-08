@@ -39,7 +39,7 @@ const LessonNext = () => {
           Connect with the team
         </h1>
 
-        <div className="grid grid-cols-4 gap-20 mt-20">
+        <div className="grid lg:grid-cols-4 gap-20 mt-20">
           <div>
             <h1> Name: Temitayo Odutola </h1>
             <p> Email: temitayoodutola@gmail.com </p>
