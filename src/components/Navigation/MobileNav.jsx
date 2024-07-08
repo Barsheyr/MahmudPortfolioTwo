@@ -17,7 +17,7 @@ const MobileNav = () => {
         return (
           <li key={id}>
             <NavLink
-              className="capitalize font-secondary text-black hover:bg-slate-200 hover:text-black
+              className="capitalize font-secondary text-white hover:bg-slate-200 hover:text-black
            p-3 rounded-md font-bold"
               to={url}
             >

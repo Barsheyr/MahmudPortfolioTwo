@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Testimonial = () => {
   return (
     <section className="py-20">
-      <h1 className="text-6xl text-center hover:text-blue-300">
+      <h1 className="lg:text-6xl text-3xl text-center hover:text-blue-300">
         Thank you for taking your time to view my works !
       </h1>
 
@@ -13,7 +13,7 @@ const Testimonial = () => {
        max-w-40 p-10 mx-auto text-center mt-20"
       >
         <Link to={`/contact`}>
-          <p className="text-xl">
+          <p className="text-xl font-bold">
             Let's Work <br /> Together
           </p>
         </Link>

@@ -9,15 +9,13 @@ const Hero = () => {
           Mahmud Akinbami <span className="text-blue-300"> Product </span>
           Designer
         </h1>
-        <p className="lg:text-5xl text-3xl"> Based in London, UK </p>
+        <p className="lg:text-5xl text-3xl font-semibold text-blue-600">
+          Based in London, UK
+        </p>
 
-        <div className="mt-20">
-          <div className="btn hover:bg-blue-300 border border-slate-400">
-            <a
-              href={resume}
-              download="resume"
-              className="font-semibold text-xl"
-            >
+        <div className="">
+          <div className="btn hover:bg-black hover:text-white bg-blue-300 border border-slate-400 mt-20">
+            <a href={resume} download="resume" className="font-bold text-xl">
               Download CV
             </a>
           </div>

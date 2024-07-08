@@ -9,7 +9,7 @@ const Footer = () => {
     <div>
       <footer className="bg-blue-900">
         <div className="max-w-5xl mx-auto">
-          <div className="flex flex-col gap-10 py-20">
+          <div className="flex flex-col gap-10 py-20 px-10">
             <div className="w-[100%] h-0.5 bg-gray-300 mt-20"></div>
             <h1 className="lg:text-7xl text-5xl font-Ubuntu text-slate-100">
               Get In <span className="text-blue-400"> Touch </span>

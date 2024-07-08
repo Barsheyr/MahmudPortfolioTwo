@@ -36,8 +36,8 @@ const Works = () => {
         </div>
       </div>
 
-      <section className="py-10">
-        <h1 className="text-6xl text-center hover:text-blue-300">
+      <section className="py-10 px-10">
+        <h1 className="lg:text-6xl text-3xl text-center hover:text-blue-300">
           Thank you for taking your time to view my works !
         </h1>
 
