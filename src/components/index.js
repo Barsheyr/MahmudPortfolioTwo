@@ -16,3 +16,6 @@ export { default as InfoArchitecture } from "./AER/InfoArchitecture";
 export { default as WireFrame } from "./AER/WireFrames";
 export { default as OnboardingScreen } from "./AER/OnboardingScreens";
 export { default as OwnerProfile } from "./AER/OwnerProfile";
+export { default as StyleGuide } from "./AER/StyleGuide";
+export { default as Impacts } from "./AER/Impacts";
+export { default as LessonNext } from "./AER/LessonNext";

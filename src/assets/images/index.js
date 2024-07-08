@@ -27,6 +27,10 @@ import CarProfilePic5 from "../images/Car-profile-pic-5.png";
 import CarProfilePic6 from "../images/Car-profile-pic-6.png";
 import CarProfilePic7 from "../images/Car-profile-pic-7.png";
 import OwnerRidePic from "../images/Owner-Ride-Page.png";
+import BookRide from "../images/Book-a-ride.png";
+import RiderHomepage from "../images/Rider-Homepage.png";
+import StyleGuidePic from "../images/style-guide-pic.png";
+import ImpactPic from "../images/impact-pic.png";
 
 export {
   ProjectTitle,
@@ -58,4 +62,8 @@ export {
   CarProfilePic6,
   CarProfilePic7,
   OwnerRidePic,
+  BookRide,
+  RiderHomepage,
+  StyleGuidePic,
+  ImpactPic,
 };

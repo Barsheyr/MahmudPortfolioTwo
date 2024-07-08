@@ -7,6 +7,8 @@ import {
   CarProfilePic6,
   CarProfilePic7,
   OwnerRidePic,
+  BookRide,
+  RiderHomepage,
 } from "../../assets/images";
 
 const OwnerProfile = () => {
@@ -25,8 +27,14 @@ const OwnerProfile = () => {
         <img src={CarProfilePic7} alt="" className="" />
       </div>
 
-      <div>
+      <div className="mt-20">
         <img src={OwnerRidePic} alt="" />
+      </div>
+      <div className="mt-20">
+        <img src={BookRide} alt="" />
+      </div>
+      <div className="mt-20">
+        <img src={RiderHomepage} alt="" />
       </div>
     </section>
   );

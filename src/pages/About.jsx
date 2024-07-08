@@ -4,10 +4,10 @@ import { AboutMe } from "../assets/images";
 const About = () => {
   return (
     <section className="bg-slate-100 font-primary">
-      <section className="py-44 max-w-5xl mx-auto">
+      <section className="py-32 max-w-5xl mx-auto">
         <div className="space-y-10">
-          <h1 className="text-5xl"> My Story </h1>
-          <div className="grid grid-cols-3 gap-10">
+          <h1 className="text-5xl px-10"> My Story </h1>
+          <div className="grid lg:grid-cols-3 gap-10 px-10">
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               Repellendus, nulla et quasi dolor adipisci maiores necessitatibus
@@ -36,8 +36,8 @@ const About = () => {
         {/* skills */}
 
         <div className="space-y-10 mt-32">
-          <h1 className="text-5xl"> My Skills </h1>
-          <div className="grid grid-cols-3 gap-10">
+          <h1 className="text-5xl px-10"> My Skills </h1>
+          <div className="grid lg:grid-cols-3 gap-10 px-10">
             <div>
               <h1 className="text-2xl text-blue-300 font-bold"> UI / UX</h1>
               <p className="mt-5 font-semibold">

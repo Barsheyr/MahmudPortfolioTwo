@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import MobileNav from "./MobileNav";
 import NavLinks from "./NavLinks";
 import { NavLink } from "react-router-dom";
+import { FaBarsStaggered } from "react-icons/fa6";
 
 const Navbar = () => {
   const [isActive, setIsActive] = useState(false);
@@ -28,10 +29,22 @@ const Navbar = () => {
               to="/"
               className={`${
                 isActive ? "text-blue-400" : "text-blue-400"
-              } lg:text-3xl text-lg font-bold tracking-[3px]`}
+              } lg:text-3xl text-lg font-bold tracking-[3px] hidden lg:block`}
             >
               MA
             </NavLink>
+
+            <div className="dropdown">
+              <label tabIndex={0} className="btn btn-ghost lg:hidden">
+                <FaBarsStaggered className="h-6 w-6" />
+              </label>
+              <ul
+                tabIndex={0}
+                className="menu menu-sm dropdown-content mt-3 z-10 p-2 shadow mr-[200%] bg-blue-500 rounded-box w-52"
+              >
+                <MobileNav />
+              </ul>
+            </div>
           </div>
 
           <div className="navbar-center hidden lg:flex">

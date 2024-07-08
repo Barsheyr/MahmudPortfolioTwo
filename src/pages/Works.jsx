@@ -4,7 +4,7 @@ import { ProjectTitle, InvoiceHeader } from "../assets/images";
 
 const Works = () => {
   return (
-    <section className="max-w-5xl mx-auto py-44 font-primary">
+    <section className="max-w-5xl mx-auto py-32 font-primary">
       <h1 className="text-6xl text-center hover:text-blue-300"> My Works</h1>
 
       <div className="grid lg:grid-cols-2 gap-10 py-20">

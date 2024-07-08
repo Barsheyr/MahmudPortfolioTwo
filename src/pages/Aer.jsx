@@ -12,12 +12,15 @@ import {
   WireFrame,
   OnboardingScreen,
   OwnerProfile,
+  StyleGuide,
+  Impacts,
+  LessonNext,
 } from "../components";
 
 const Aer = () => {
   return (
     <section className="bg-slate-100 font-primary">
-      <section className="py-44 max-w-7xl mx-auto px-10">
+      <section className="py-32 max-w-7xl mx-auto px-10">
         <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-10">
           <div className="flex flex-col text-center lg:text-start space-y-5">
             <h1 className="text-6xl">
@@ -103,6 +106,9 @@ const Aer = () => {
         <WireFrame />
         <OnboardingScreen />
         <OwnerProfile />
+        <StyleGuide />
+        <Impacts />
+        <LessonNext />
       </section>
     </section>
   );
