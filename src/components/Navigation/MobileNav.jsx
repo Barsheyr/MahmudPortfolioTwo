@@ -1,9 +1,9 @@
 import React from "react";
 const links = [
   { id: 1, url: "/", text: "Home" },
-  { id: 2, url: "/about", text: "About" },
-  { id: 3, url: "/works", text: "Works" },
-  { id: 4, url: "/contact", text: "Contact" },
+  { id: 2, url: "about", text: "About" },
+  { id: 3, url: "works", text: "Works" },
+  { id: 4, url: "contact", text: "Contact" },
 ];
 
 import { NavLink } from "react-router-dom";

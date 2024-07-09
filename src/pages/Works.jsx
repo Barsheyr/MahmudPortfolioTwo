@@ -5,7 +5,9 @@ import { ProjectTitle, InvoiceHeader } from "../assets/images";
 const Works = () => {
   return (
     <section className="max-w-5xl mx-auto py-32 font-primary">
-      <h1 className="text-6xl text-center hover:text-blue-300"> My Works</h1>
+      <h1 className="lg:text-6xl text-3xl text-center hover:text-blue-300">
+        My Works
+      </h1>
 
       <div className="grid lg:grid-cols-2 gap-10 py-20">
         <div className="group transition lg:px-20 px-10">
@@ -21,7 +23,7 @@ const Works = () => {
             </p>
           </Link>
         </div>
-        <div className="group transition px-20">
+        <div className="group transition lg:px-20 px-10">
           <Link to={`/invoice`}>
             <h1 className="text-4xl text-center"> Invoice </h1>
             <img

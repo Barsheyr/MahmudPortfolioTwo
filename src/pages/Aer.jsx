@@ -42,7 +42,7 @@ const Aer = () => {
         <section className=" py-20 mt-44 grid lg:grid-cols-2 items-center gap-10">
           <div className="space-y-5">
             <h1 className="text-5xl font-bold text-blue-500">
-              Project Overview{" "}
+              Project Overview
             </h1>
             <p>
               With the constant rise in production costs, modern Self-Driving
@@ -80,11 +80,12 @@ const Aer = () => {
                 <div>
                   <h2 className="text-2xl text-blue-500"> Roles </h2>
                 </div>
-                <p>Lorem ipsum</p>
-                <p>Lorem ipsum</p>
-                <p>Lorem ipsum</p>
-                <p>Lorem ipsum</p>
-                <p>Lorem ipsum</p>
+                <p> Components for atomic design of the project </p>
+                <p> Prototypying </p>
+                <p>Wireframing</p>
+                <p>High-Fi Design</p>
+                <p>Low-Fi design</p>
+                <p>Presentation design</p>
               </div>
             </div>
           </div>
