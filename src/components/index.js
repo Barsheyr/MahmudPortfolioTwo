@@ -19,3 +19,4 @@ export { default as OwnerProfile } from "./AER/OwnerProfile";
 export { default as StyleGuide } from "./AER/StyleGuide";
 export { default as Impacts } from "./AER/Impacts";
 export { default as LessonNext } from "./AER/LessonNext";
+export { default as Videocomponent } from "./Videocomponent";

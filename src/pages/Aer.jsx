@@ -15,6 +15,7 @@ import {
   StyleGuide,
   Impacts,
   LessonNext,
+  Videocomponent,
 } from "../components";
 
 const Aer = () => {
@@ -60,25 +61,38 @@ const Aer = () => {
               {/* 1 */}
               <div>
                 <div>
-                  <h2 className="text-2xl text-blue-500"> Teams </h2>
+                  <h2 className="text-2xl font-semibold text-blue-500">
+                    {" "}
+                    Teams{" "}
+                  </h2>
                 </div>
-                <p>Lorem ipsum</p>
-                <p>Lorem ipsum</p>
-                <p>Lorem ipsum</p>
-                <p>Lorem ipsum</p>
-                <p>Lorem ipsum</p>
+                <p>Temitayo Odutola </p>
+                <p>Esther Inontah </p>
+                <p> Okah-Avae E. Theresa </p>
+                <p>Chike Ezeiru</p>
+                <p>Enigbonjaye Esther Olamide </p>
+                <p>Deborah Ojo </p>
+                <p className="font-bold text-2xl"> Akinbami mahmud </p>
+                <p> Geraldine E. Okeke </p>
+                <p>Muttaqiyyah Hassan </p>
+                <p>Lamidi Lateefah Adebimpe </p>
+                <p> Kuteyi Temitope </p>
               </div>
               {/* 2 */}
               <div>
                 <div>
-                  <h2 className="text-2xl text-blue-500"> Tools </h2>
+                  <h2 className="text-2xl font-semibold text-blue-500">
+                    Tools
+                  </h2>
                 </div>
                 <p> FIGMA </p>
               </div>
               {/* 3 */}
               <div>
                 <div>
-                  <h2 className="text-2xl text-blue-500"> Roles </h2>
+                  <h2 className="text-2xl font-semibold text-blue-500">
+                    Roles
+                  </h2>
                 </div>
                 <p> Components for atomic design of the project </p>
                 <p> Prototypying </p>
@@ -109,6 +123,7 @@ const Aer = () => {
         <OwnerProfile />
         <StyleGuide />
         <Impacts />
+        <Videocomponent />
         <LessonNext />
       </section>
     </section>
