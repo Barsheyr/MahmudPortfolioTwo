@@ -59,11 +59,10 @@ const Aer = () => {
 
             <div className="grid grid-cols-2 gap-10 mt-10">
               {/* 1 */}
-              <div>
+              {/* <div>
                 <div>
                   <h2 className="text-2xl font-semibold text-blue-500">
-                    {" "}
-                    Teams{" "}
+                    Teams
                   </h2>
                 </div>
                 <p>Temitayo Odutola </p>
@@ -77,7 +76,7 @@ const Aer = () => {
                 <p>Muttaqiyyah Hassan </p>
                 <p>Lamidi Lateefah Adebimpe </p>
                 <p> Kuteyi Temitope </p>
-              </div>
+              </div> */}
               {/* 2 */}
               <div>
                 <div>

@@ -46,8 +46,8 @@ const StyleGuide = () => {
             </div>
           </div>
           {/* 3 */}
-          <div>
-            <img src={StyleGuidePic} alt="" />
+          <div className="flex flex-col items-center">
+            <img src={StyleGuidePic} alt="" className="w-[50%]" />
           </div>
         </div>
       </div>

@@ -26,10 +26,10 @@ const DesignProcess = () => {
             <div>
               <div
                 className=" bg-blue-500 text-white rounded-full flex flex-col gap-5
-              p-[26%] items-center justify-between"
+              w-[50%] p-10 items-center justify-between"
               >
-                <IoIosPeople size={50} />
-                <p className="text-xl"> Empathize </p>
+                <IoIosPeople size={30} />
+                <p className="text-sm"> Empathize </p>
               </div>
               <p className="mt-10">
                 We conducted a research on the project and we sent out surveys
@@ -40,10 +40,10 @@ const DesignProcess = () => {
             <div>
               <div
                 className=" bg-blue-500 text-white rounded-full flex flex-col gap-5
-              p-[26%] items-center justify-between"
+                w-[50%] p-10 items-center justify-between"
               >
-                <PiFunnelSimpleBold size={50} />
-                <p className="text-xl"> Define </p>
+                <PiFunnelSimpleBold size={30} />
+                <p className="text-sm"> Define </p>
               </div>
               <p className="mt-10">
                 After getting results from the survey, we defined the exact
@@ -54,10 +54,10 @@ const DesignProcess = () => {
             <div>
               <div
                 className=" bg-blue-500 text-white rounded-full flex flex-col gap-5
-              p-[26%] items-center justify-between"
+                w-[50%] p-10 items-center justify-between"
               >
-                <MdLightbulb size={50} />
-                <p className="text-xl"> Ideate </p>
+                <MdLightbulb size={30} />
+                <p className="text-sm"> Ideate </p>
               </div>
               <p className="mt-10">
                 We brainstormed on various ideas in providing user-friendly
@@ -68,10 +68,10 @@ const DesignProcess = () => {
             <div>
               <div
                 className=" bg-blue-500 text-white rounded-full flex flex-col gap-5
-              p-[26%] items-center justify-between"
+                w-[50%] p-10 items-center justify-between"
               >
-                <TbUserScreen size={50} />
-                <p className="text-xl"> Empathize </p>
+                <TbUserScreen size={30} />
+                <p className="text-sm"> Empathize </p>
               </div>
               <p className="mt-10">
                 At this stage, we came up with low-fidelity wireframes and
@@ -82,10 +82,10 @@ const DesignProcess = () => {
             <div>
               <div
                 className=" bg-blue-500 text-white rounded-full flex flex-col gap-5
-              p-[26%] items-center justify-between"
+                w-[50%] p-10 items-center justify-between"
               >
-                <MdOutlinePhoneIphone size={50} />
-                <p className="text-xl"> Test </p>
+                <MdOutlinePhoneIphone size={30} />
+                <p className="text-sm"> Test </p>
               </div>
               <p className="mt-10">
                 This stage involves testing with users to gather feedback on the

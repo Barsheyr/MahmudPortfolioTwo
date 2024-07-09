@@ -11,7 +11,7 @@ const Impacts = () => {
 
         <div className="mt-20 grid lg:grid-cols-2 gap-10">
           <div className="flex flex-col items-center">
-            <img src={ImpactPic} alt="" />
+            <img src={ImpactPic} alt="" className="w-[50%]" />
           </div>
           <div className="grid lg:grid-cols-2 gap-10 mt-20">
             {/* 1 */}
