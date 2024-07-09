@@ -71,7 +71,7 @@ const Aer = () => {
               {/* 2 */}
               <div>
                 <div>
-                  <h2 className="text-3xl text-blue-500"> Tools </h2>
+                  <h2 className="text-2xl text-blue-500"> Tools </h2>
                 </div>
                 <p> FIGMA </p>
               </div>
