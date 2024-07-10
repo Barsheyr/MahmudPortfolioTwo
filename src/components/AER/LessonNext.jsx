@@ -34,36 +34,6 @@ const LessonNext = () => {
           </p>
         </div>
       </div>
-      <div>
-        <h1 className="text-center text-blue-500 text-3xl font-bold">
-          Connect with the team
-        </h1>
-
-        <div className="grid lg:grid-cols-4 gap-20 mt-20">
-          <div>
-            <h1> Name: Temitayo Odutola </h1>
-            <p> Email: temitayoodutola@gmail.com </p>
-            <p> Behance: https://www.behance.net/tayoodutola </p>
-          </div>
-          <div>
-            <h1 className="text-sm"> Name: Esther Inontah </h1>
-            <p className="text-xm"> Email: inontahestheredidiong@gmail.com </p>
-            <p className="text-sm">
-              Behance: https://www.behance.net/estherinontah
-            </p>
-          </div>
-          <div>
-            <h1> Name: Esther Inontah </h1>
-            <p> Email: inontahestheredidiong@gmail.com </p>
-            <p> Behance: https://www.behance.net/estherinontah </p>
-          </div>
-          <div>
-            <h1> Name: Esther Inontah </h1>
-            <p> Email: inontahestheredidiong@gmail.com </p>
-            <p> Behance: https://www.behance.net/estherinontah </p>
-          </div>
-        </div>
-      </div>
     </section>
   );
 };

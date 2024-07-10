@@ -6,7 +6,7 @@ const About = () => {
     <section className="bg-slate-100 font-primary">
       <section className="py-32 max-w-5xl mx-auto">
         <div className="space-y-10">
-          <h1 className="text-5xl px-10"> My Story </h1>
+          <h1 className="text-5xl px-10 hover:text-blue-300"> My Story </h1>
           <div className="grid lg:grid-cols-3 gap-10 px-10">
             <p>
               Hey there! I'm Mahmud Demilade Akinbami, but you can call me Demi.
@@ -67,7 +67,7 @@ const About = () => {
         {/* skills */}
 
         <div className="space-y-10 mt-32">
-          <h1 className="text-5xl px-10"> My Skills </h1>
+          <h1 className="text-5xl px-10 hover:text-blue-300"> My Skills </h1>
           <div className="grid lg:grid-cols-3 gap-10 px-10">
             <div>
               <h1 className="text-2xl text-blue-300 font-bold"> UI / UX</h1>

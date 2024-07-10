@@ -31,6 +31,7 @@ import BookRide from "../images/Book-a-ride.png";
 import RiderHomepage from "../images/Rider-Homepage.png";
 import StyleGuidePic from "../images/style-guide-pic.png";
 import ImpactPic from "../images/impact-pic.png";
+import ContactMe from "../images/contactme.svg";
 
 export {
   ProjectTitle,
@@ -66,4 +67,5 @@ export {
   RiderHomepage,
   StyleGuidePic,
   ImpactPic,
+  ContactMe,
 };
