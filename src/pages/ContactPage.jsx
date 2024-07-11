@@ -14,7 +14,7 @@ const ContactPage = () => {
           Thank you for your time. I am open to cooperation and communication.
           Do send a message and let's get started!!
         </h3>
-        <div className="grid grid-cols-2 gap-10 mt-20">
+        <div className="grid lg:grid-cols-2 gap-20 mt-20">
           <Form
             method="post"
             className="card w-full p-8 bg-base-100 shadow-2xl flex flex-col gap-y-4"
